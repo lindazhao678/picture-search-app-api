@@ -1,0 +1,6 @@
+{
+    "pxApiRootURL": "https://pixabay.com/api/",
+    "pxApiKey": "25743046-5b3282e331b1fa43b9fe27b1f",
+    "imageType": "photo",
+    "perPage":20
+}

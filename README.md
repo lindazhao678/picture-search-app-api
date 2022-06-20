@@ -10,3 +10,10 @@ Picture Search App is a react web appication for picture search which hosted on 
 - Use CSS and Bootstrap for the styling.
 - Use Axios library to fatch data.
 - Use React Router DOM to implement dynamic routing.
+
+This is the backend of the Picture Search App. You can access the data by adding the query parameter at the end of the url.
+
+For example: https://picture-search-app-api.herokuapp.com/?q=flower
+
+It will return the data with the query of flower.
+

@@ -17,11 +17,9 @@ app.get('/', (req, res) => {
 
     
     const api = `${process.env.PX_API_ROOTURL}/?key=${process.env.PX_API_KEY}&q=${q}&page=${page}&per_page=${perPage}&image_type=${imageType}`;
-    console.log('api: ', api);
 
     axios.get(api)
         .then((response) => {
-            console.log(response);
             res.json(response.data)
         })
         .catch((err) => {
